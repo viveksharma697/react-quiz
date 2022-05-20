@@ -3,6 +3,96 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
+			questionText: 'Who is the Chief Minister of Punjab?',
+			answerOptions: [
+				{ answerText: 'Arvind Kejriwal', isCorrect: false },
+				{ answerText: 'Bhagwant Singh Mann', isCorrect: true },
+				{ answerText: 'Manish Sisodiya', isCorrect: false },
+				{ answerText: 'Navjot Singh Sidhu', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'When is the International Yoga Day celebrated ?',
+			answerOptions: [
+				{ answerText: 'June 21', isCorrect: true },
+				{ answerText: 'March 21', isCorrect: false },
+				{ answerText: 'April 22', isCorrect: false },
+				{ answerText: 'May 31', isCorrect: false },
+			],
+		},
+		{
+			questionText: '"Line of Blood" is a book written by whom?',
+			answerOptions: [
+				{ answerText: 'Bairaj Khanna', isCorrect: true },
+				{ answerText: 'Ursule Vernon', isCorrect: false },
+				{ answerText: 'Amal El-Mohtar', isCorrect: false },
+				{ answerText: 'Diksha Basu', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The motif of "Hampi with Chariot" is printed on the reverse of which currency note ?',
+			answerOptions: [
+				{ answerText: 'One Rupee Note', isCorrect: false },
+				{ answerText: 'Rs. 500 note', isCorrect: false },
+				{ answerText: 'Rs. 50 note', isCorrect: true },
+				{ answerText: 'Rs. 1000 note', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'World Tourism Day is celebrated on-',
+			answerOptions: [
+				{ answerText: 'September 12', isCorrect: false },
+				{ answerText: 'September 25', isCorrect: false },
+				{ answerText: 'September 27', isCorrect: true },
+				{ answerText: 'September 29', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'A computer cannot "boot" if it does not have the _____',
+			answerOptions: [
+				{ answerText: 'Compiler', isCorrect: false },
+				{ answerText: 'Operating System', isCorrect: true },
+				{ answerText: 'Loader', isCorrect: false },
+				{ answerText: 'Assembler', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The tropic of cancer does not pass through which of these Indian states ?',
+			answerOptions: [
+				{ answerText: 'Madhya Pradesh', isCorrect: false },
+				{ answerText: 'Rajasthan', isCorrect: false },
+				{ answerText: 'West Bengal', isCorrect: false },
+				{ answerText: 'Odisa', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Fathometer is used to measure',
+			answerOptions: [
+				{ answerText: 'Earthquakes', isCorrect: false },
+				{ answerText: 'Ocean depth', isCorrect: true },
+				{ answerText: 'Rainfall', isCorrect: false },
+				{ answerText: 'Sound Intensity', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The purest form of iron is ',
+			answerOptions: [
+				{ answerText: 'wrought iron', isCorrect: true },
+				{ answerText: 'pig iron', isCorrect: false },
+				{ answerText: 'steel', isCorrect: false },
+				{ answerText: 'nickel steel', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The working principle of a washing machine is',
+			answerOptions: [
+				{ answerText: 'reverse osmosis', isCorrect: false },
+				{ answerText: 'centrifugation', isCorrect: true },
+				{ answerText: 'diffusion', isCorrect: false },
+				{ answerText: 'dialysis', isCorrect: false },
+			],
+		},
+		{
 			questionText: 'What is the capital of France?',
 			answerOptions: [
 				{ answerText: 'New York', isCorrect: false },
