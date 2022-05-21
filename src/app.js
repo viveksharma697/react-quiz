@@ -137,6 +137,9 @@ export default function App() {
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
+			alert('Congrats !!! Correct Answer');
+		} else {
+			alert("Sorry ! Wrong Answer")
 		}
 
 		const nextQuestion = currentQuestion + 1;
@@ -144,6 +147,8 @@ export default function App() {
 			setCurrentQuestion(nextQuestion);
 		} else {
 			setShowScore(true);
+			alert("Click 'OK' to check your final score")
+
 		}
 	};
 	return (
